@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[44,)"
+license="All rights reserved"
+[[mods]]
+    modId="colonovastech"
+    version="${file.jarVersion}"
+    displayName="Colonovas Tech"
+    credits="Colonova"
+    authors="Colonova"
+    description='''A technology mod with world gen, machines, cables, rings and much more!'''
+[[dependencies.colonovastech]]
+    modId="forge"
+    mandatory=true
+    versionRange="[44,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.colonovastech]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.3,1.20)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.colonovastech]]
+    modId="colonovascore"
+    mandatory=true
+    versionRange="[0.0.1,1.0.0)"
+    ordering="NONE"
+    side="BOTH"
